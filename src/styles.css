@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.clear {
+    clear: both;
+}
+
 html, body {
   margin: 5px;
   border: 0;
@@ -32,11 +36,16 @@ html, body {
     align-items: center;
 }
 
-.image1TextPuntual {
+.image1TextTitle {
     display: inline;
-    width: 377px;
-    height: 141px;    
+    width: 372px;
+    height: 137px;    
     background-image: url(./Images/Title.png);
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
 }
 
 .logo {
@@ -50,6 +59,58 @@ html, body {
 main {
 }
 
+.ourClients {
+    text-align: center;
+    font: Arial;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.ourClientsLogo {
+    margin-right: 40px;
+}
+
+.ourClientsLogos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.whoWeAre {
+    padding: 80px;
+}
+
+.whoWeAreImage {
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-image: url(./Images/Image2.png);
+    background-size: cover;
+}
+
+.whoWeAreText {
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-color: #E2EFF2;
+    text-align: center;    
+}
+
+.whoWeAreTextTitle {    
+    font: Verdana;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.whoWeAreTextMessage {    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    font: Arial;
+    font-size: 18px;    
+}
+
 @media screen and (max-width: 600px) {
     html, body {
         margin: 0px;
@@ -58,17 +119,18 @@ main {
     .image1 {
         height: 343px;
         background-image: url(./Images/Image1Small.png);
+        background-size: cover;
     }
 
-    .image1Text {        
+    .image1Text {
         min-width: 300px;
     }
 
-    .image1TextPuntual {
+    .image1TextTitle {
         display: inline;
         width: 190px;
-        height: 72px;        
-        background-image: url(./Images/TitleSmall.png);
+        height: 72px;
+        background-image: url(./Images/TitleSmall.png)
     }
 
     .logo {
@@ -79,5 +141,23 @@ main {
         margin-right: auto;
         margin-bottom: 0px;
         margin-top: 0px;
+    }
+
+    
+
+    .whoWeAre {
+        padding: 0px;
+    }
+
+    .whoWeAreImage {
+        height: 400px;
+        width: 100%;
+        float: initial;
+    }
+
+    .whoWeAreText {
+        height: 400px;
+        width: 100%;
+        float: initial;
     }
 }
