@@ -6,11 +6,19 @@
     clear: both;
 }
 
+.copyright {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+
 html, body {
-  margin: 5px;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+    margin: 5px;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
 }
 
 .image1 {    
@@ -142,8 +150,6 @@ main {
         margin-bottom: 0px;
         margin-top: 0px;
     }
-
-    
 
     .whoWeAre {
         padding: 0px;
